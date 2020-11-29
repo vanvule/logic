@@ -1,0 +1,69 @@
+husband(captain_mark_phillips, princess_anne).
+False.
+
+wife(queen_elizabethII, prince_phillip).
+True.
+
+sibling(peter_phillips, zara_phillips).
+True.
+
+mother(X, prince_andrew).
+X = queen_elizabethII.
+
+niece(princess_charlotte, princess_anne).
+False.
+
+aunt(princess_diana, princess_charlotte).
+False.
+
+grandson(X, prince_charles).
+X = prince_george.
+
+grandchild(X, princess_diana).
+X = princess_charlotte ;
+X = prince_george.
+
+uncle(prince_harry, princess_eugenie).
+False.
+
+grandchild(X, queen_elizabethII).
+X = peter_phillips ;
+X = james_viscount_severn ;
+X = princess_eugenie ;
+X = prince_william ;
+X = zara_phillips ;
+X = prince_harry ;
+X = lady_louise_mountbatten_windsor ;
+X = princess_beatrice.
+
+wife(X, prince_charles).
+X = camilla_paker_bowles.
+
+husband(X, princess_anne).
+X = timothy_laurence.
+
+sister(X, james_viscount_severn).
+X = lady_louise_mountbatten_windsor.
+
+daughter(X, princess_anne).
+X = zara_phillips.
+
+son(X, sarah_ferguson).
+False.
+
+daughter(X, sarah_ferguson).
+X = princess_eugenie ;
+X = princess_beatrice.
+
+grandparent(princess_diana, prince_harry).
+False.
+
+brother(prince_george, princess_charlotte).
+True.
+
+uncle(timothy_laurence, james_viscount_severn).
+True.
+
+grandmother(X, princess_charlotte).
+X = princess_diana.
+

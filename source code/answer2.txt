@@ -1,0 +1,127 @@
+laDienThoai(X).
+X = p40 ;
+X = p30 ;
+X = y9s ;
+X = y6p ;
+X = y7pro_2019 ;
+X = m20 ;
+X = nova21 ;
+X = nova5t ;
+X = gr5_2017 ;
+X = p40pro ;
+X = nova3e ;
+X = m30 ;
+X = p40proPlus ;
+X = p9 ;
+X = nova3i ;
+X = m20pro ;
+X = gr5_2017_pro ;
+X = gr5 ;
+X = nova3 ;
+X = p20pro ;
+X = y9prime ;
+X = y9_2019 ;
+X = p30lite ;
+X = p30pro ;
+X = p9lite ;
+X = nova7i.
+
+laDienThoai(p40pro).
+True.
+
+laDienThoai(gt2e).
+False.
+
+laDienThoaiPhoThong(X).
+X = nova21 ;
+X = nova3i ;
+X = nova5t ;
+X = nova3e ;
+X = nova3 ;
+X = nova7i.
+
+laDienThoaiPhoThong(nova21).
+True.
+
+laDienThoaiPhoThong(p40).
+False.
+
+sanpham(mateSeries, X).
+X = m30 ;
+X = m20pro ;
+X = m20.
+
+sanpham(pSeries, X).
+X = p40 ;
+X = p30 ;
+X = p20pro ;
+X = p40pro ;
+X = p30lite ;
+X = p30pro ;
+X = p9lite ;
+X = p40proPlus ;
+X = p9.
+
+sanpham(novaSeries, X).
+X = nova21 ;
+X = nova3i ;
+X = nova5t ;
+X = nova3e ;
+X = nova3 ;
+X = nova7i.
+
+sanpham(gSeries, X).
+X = gr5_2017 ;
+X = gr5 ;
+X = gr5_2017_pro.
+
+sanpham(ySeries, X).
+X = y9s ;
+X = y6p ;
+X = y7pro_2019 ;
+X = y9prime ;
+X = y9_2019.
+
+laDongHo(X).
+X = b2 ;
+X = gtBasic ;
+X = b0 ;
+X = b5 ;
+X = gt2 ;
+X = gt2e.
+
+laDongHo(gt2e).
+True.
+
+laDongHo(fbpro).
+False.
+
+laPhuKienUaChuong(X).
+X = fb3 ;
+X = fbpro ;
+X = gtBasic ;
+X = gt2 ;
+X = fbstudio ;
+X = fb3i ;
+X = gt2e.
+
+laPhuKienUaChuong(flpro).
+False.
+
+laPhuKienUaChuong(fbstudio).
+True.
+
+laTaiNghe(X).
+X = fb3 ;
+X = flpro ;
+X = fbpro ;
+X = fbstudio ;
+X = fb3i.
+
+laTaiNghe(fbstudio).
+True.
+
+laPhanMem(X).
+X = hiSuite ;
+X = emui.
+
