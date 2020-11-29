@@ -1,7 +1,7 @@
 # logic
-##LAB02 TRÍ TUỆ NHÂN TẠO: LOGIC
+## LAB02 TRÍ TUỆ NHÂN TẠO: LOGIC
 
-###Cách chạy chương trình trong bài 3
+### Cách chạy chương trình trong bài 3
 Testcase1: Cây phả hệ Hoàng gia Anh:
 
 …/…./…>py main.py KB1.pl query1.pl answer1.txt
