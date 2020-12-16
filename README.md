@@ -1,5 +1,5 @@
 # logic
-## LAB02 TRÍ TUỆ NHÂN TẠO: LOGIC
+## LAB02 CƠ SỞ TRÍ TUỆ NHÂN TẠO: LOGIC
 
 ### Cách chạy chương trình trong bài 3
 Testcase1: Cây phả hệ Hoàng gia Anh:
